@@ -1,33 +1,71 @@
-body{
-    background-color:rgba(160, 149, 100);
-    font-family: 'Lucida Sans';
-    font-size: small;
-    color: #fdfdfd;
+.menu{
+    width: 1206px;
+height: 31px;
+background:#000AFF;
+   
+}
+.menu-texto{
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.cabecalho{
+    width: 1206px;
+    height: 123px;
+    background: #000AFF;
+}
+
+.cabecalho-texto{
+    width: 502px;
+    height: 25px;
+    color: #F5F5F5;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.corpo{
+    display: grid;
     text-align: center;
-    display: inline;
-    font-size: 14px;
-    }
-    h3{
-    font-family: 'Lucida Sans';
-    font-size: small;
-    color: #fdfdfd;
+    grid-template-columns: 30% 30% 30%;
+    position: absolute;
+    
+    width: 1440px;
+    height: 640px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #28AE96 43.23%, rgba(40, 174, 150, 0.00) 100%);
+   
+}
+corpo-img{
+    width: 182px;
+height: 479px;
+flex-shrink: 0;
+}
+.corpo-itens{
+
     text-align: center;
-    display: inline;
-    font-size: 14px;
-    }
-    .linha {
-    font-family: 'Lucida Sans';
-    font-size: small;
-    font-size: 12px;
-    background-color:rgb(66, 56, 10);
-    }
-    .lista {
-    font-family: 'Lucida Sans';
-    font-size: small;
-    text-align: left;
-    font-size: 12px;
-    color:rgb(66, 56, 10);
-    }
-    .itens {
-    background-color: rgb(211, 204, 174);
-    }
+    padding: 16px 0;
+}
+.corpo-itens-img{
+    width: 182px;
+}
+.rodape{
+    width: 1440px;
+height: 114px;
+flex-shrink: 0;
+background: linear-gradient(180deg, #28AE96 43.23%, rgba(40, 174, 150, 0.00) 100%);
+}
+.rodape-texto{
+    color: #000;
+font-size: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 6px;
+}
