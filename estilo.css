@@ -1,5 +1,5 @@
 .menu{
-    width: 1206px;
+    width: 1440px;
 height: 31px;
 background:#000AFF;
    
@@ -14,21 +14,18 @@ background:#000AFF;
 
 }
 .cabecalho{
-    width: 1206px;
+    width: 1440px;
     height: 123px;
     background: #000AFF;
 }
 
 .cabecalho-texto{
-    width: 502px;
-    height: 25px;
-    color: #F5F5F5;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 .corpo{
     display: grid;
     text-align: center;
@@ -38,14 +35,15 @@ line-height: normal;
     width: 1440px;
     height: 640px;
     flex-shrink: 0;
-    background: linear-gradient(180deg, #28AE96 43.23%, rgba(40, 174, 150, 0.00) 100%);
-   
+    background: linear-gradient(180deg, #000AFF 0%, rgba(0, 10, 255, 0.00) 100%);
 }
 corpo-img{
-    width: 182px;
-height: 479px;
-flex-shrink: 0;
-}
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 .corpo-itens{
 
     text-align: center;
